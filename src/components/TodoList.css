@@ -1,0 +1,89 @@
+.Heading {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 350px;
+}
+
+.H1 {
+    background-image: url(/src/images/bg-desktop-light.jpg);
+}
+
+.H2 {
+    background-image: url(/src/images/bg-desktop-dark.jpg);
+}
+
+.Heading .Head {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    height: 30%;
+    border-style: none;
+}
+
+img .moon-hidden {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+.Todoitems {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px gray;
+    margin: 70px 350px;
+    position: relative;
+    bottom: 110px;
+    border-radius: 10px;
+}
+
+ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+
+@media (max-width: 450px) {
+    .Heading {
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 25px 40px;
+    }
+
+    .H1 {
+        background-image: url(/src/images/bg-mobile-light.jpg);
+    }
+    
+    .H2 {
+        background-image: url(/src/images/bg-mobile-dark.jpg);
+    }
+    
+    h1 {
+        font-size: 2rem;
+        color: #fff;
+    }
+    
+    img {
+        width: 50%;
+        height: 30%;
+        border-style: none;
+    }
+    .Todoitems {
+        background-color: #fff;
+        box-shadow: 1px 1px 5px gray;
+        margin: 10px 40px;
+        position: relative;
+        bottom: 5px;
+    }
+}

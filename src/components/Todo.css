@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid rgb(17, 15, 15);
+    margin-left: -35px;
+}
+
+.list li {
+    font-size: 1.8rem;
+}
+
+.list button {
+    background-color: transparent;
+    border-style: none;
+    margin-right: 40px;
+}
+
+@media (max-width: 450px) {
+    .list {
+        padding: 5px 0;
+    }
+
+    .list li {
+        font-size: 20px;
+    }
+
+    .list button {
+        margin-right: 20px;
+    }
+
+}
